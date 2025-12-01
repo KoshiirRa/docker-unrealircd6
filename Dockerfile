@@ -1,5 +1,5 @@
-ARG PKG="wget gcc make binutils libc6-compat g++ openssl-dev openssl curl curl-dev"
-ARG VER="5.0.7"
+ARG PKG="build-essential pkg-config gdb libssl-dev libpcre2-dev libargon2-dev libsodium-dev libc-ares-dev libcurl4-openssl-dev"
+ARG VER="latest"
 ARG UID=10000
 
 FROM alpine:3.22.2
