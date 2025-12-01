@@ -5,7 +5,7 @@ services:
       context: . 
       dockerfile: Dockerfile
       args:
-        VER: 5.0.7
-    image: ircd/unrealircd:latest
+        VER: latest
+    image: docker-unrealircd6/unrealircd:latest
     volumes:
-      - "/path/to/unrealircd:/ircd"
+      - "/home/ircd:/ircd"
